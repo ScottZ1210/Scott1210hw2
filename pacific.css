@@ -1,0 +1,143 @@
+/* 
+File: hw2.css
+GUI Assignment: Style a Cite with External CSS
+This webpage is a way to practice and get much better at using css to style a webpage.
+Scott Zalomis, Umass Lowell Computer Science, scott_zalomis@cs.uml.edu
+Copyright (c) 2025 by Scott. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by SZ on September 29, 2025 at 5:00PM
+*/
+
+#wrapper {
+    overflow: hidden;
+    width: 80%;
+    min-width: 600px;   
+    margin: 0 auto;    
+    background-color: #ffffff; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Page background */
+body {
+    margin: 40px;  
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("ptrbackground.jpg");
+    background-color: #00569f;
+    color: #333; 
+    min-height: 100vh;
+}
+
+/* Header */
+header h1 { 
+    margin: 0;
+    padding: 15px;
+    background-color: #0b0b0b; 
+    color: white;
+    font-size: 2em; 
+    font-family: Georgia, "Times New Roman", serif;
+
+    /* background image like Pacific Trails */
+    background-image: url("sunset.jpg"); 
+    background-size: cover;
+    background-position: center;
+}
+
+/* Navigation */
+nav {
+    float: left;         
+    width: 180px;        
+    height: 600px;      
+    background-color: #13709b;  
+    padding: 20px;       
+    box-sizing: border-box; 
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;   
+    padding: 0;  
+    font-size: 0.9em;
+}
+
+nav ul li {      
+    margin: 10px 0;  
+}
+
+nav a {
+    text-decoration: none;
+    color: black; 
+    font-weight: bold;
+}
+
+nav a:visited {
+    color: #003366;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* Content area */
+#content {
+    margin-left: 200px;
+    padding: 20px;
+    background-color: white;
+    font-size: 1.2em;  
+    line-height: 1.0;  
+}
+
+#content img {
+    float: left;                      
+    margin: 0 20px 20px 0;            
+    max-width: 40%;                   
+    height: auto;
+}
+
+#content ul {
+    font-size: 1.0em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#content ul li {
+    list-style-image: url(marker.gif);
+    padding-left: 1px;
+}
+
+.resort {
+    font-weight: bold;
+    color: #003366; 
+}
+
+/* Headings */
+h1, h2 {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+h2 {
+    color: #3399cc;
+    margin-top: 0; 
+}
+
+/* Contact info */
+#contact {
+    margin: 100px 0 0px 0; 
+    font-size: 0.8em; 
+    line-height: 1.5; 
+}
+
+/* Definition terms */
+dt {
+    color: #7f7fb5;
+}
+
+/* Footer */
+footer {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 0.8em;  
+    font-style: italic; 
+    text-align: left;
+    margin-left: 200px;  
+    padding: 20px;       
+}
